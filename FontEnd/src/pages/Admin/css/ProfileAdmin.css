@@ -1,0 +1,126 @@
+.container_Profile_Admin {
+  padding-top:110px;
+    height: 100vh;
+}
+
+.loading_Profile_Admin {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title_Profile_Loading {
+    font-size: 20px;
+}
+.inf_user_Admin {
+    margin-top: 20px;
+}
+.header_Profile_Admin {
+    position: fixed;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    z-index: 9999;
+}
+
+.header_Profile_Admin>a:hover>p {
+    color: blue;
+    cursor: pointer;
+}
+
+.content_Profile_Admin {
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image_profileAdmin {
+    width: 100px;
+    height: 120px;
+   display: flex;
+   align-items: center;
+    
+ 
+}
+
+.avatar_userAdmin {
+    width: 50px;
+
+}
+
+.item_text_headerProfileAdmin {
+    flex-direction: column;
+    width: 100%;
+}
+
+.header_inf_ProfileAdmin {
+    border-bottom: 1px solid #ccc;
+    
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.emai_text_headerProfileAdmin {
+    color: #8B8B8B;
+}
+
+.name_text_headerProfileAdmin {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.edit_email_profile:hover {
+    cursor: pointer;
+    color: blue;
+}
+.inf_image_ProfileAdmin{
+    border-right:1px solid #ccc ;
+}
+.inf_image_ProfileAdmin,
+.profile_user_Admin {
+    width: 50%;
+}
+
+.content_inf_ProfileAdmin {
+    padding-top: 30px;
+    padding-right:30px ;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 73.5%;
+    
+}
+.lable_inf_ProfileAdmin{
+    min-width:110px;
+    color:#8e8484
+}
+.input_inf_ProfileAdmin{
+   width: 70%;
+
+}
+.content_inf_Admin{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.lable_inf_user_Admin{
+    min-width: 110px;
+}
+.btn_Profile_Admin{
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+   padding-bottom: 80px;
+}

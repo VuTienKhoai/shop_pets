@@ -1,0 +1,37 @@
+.header_Admin1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.header_main1{
+    display: flex;
+    gap:50px;
+    justify-content:flex-start;
+    width: 100%;
+    align-items: center;
+}
+/* .header_info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 20px;
+    
+} */
+.header_user{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+.header_user:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.header_input{
+    display: flex;
+    align-items: center;
+}
+/* .header_logo{
+    width: 80%;
+} */

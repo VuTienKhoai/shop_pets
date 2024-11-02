@@ -1,0 +1,234 @@
+.header_container {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    background-color: white;
+}
+
+.sale {
+    background-color: #047f8b;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-family: 'AvenirB', sans-serif;
+    font-weight: 600;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.header_logo_img svg {
+    width: 52px;
+    height: 52px;
+}
+
+svg [data-color="1"] {
+    fill: var(--primary-color);
+}
+
+.header_logo_title p:first-child {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.header_logo_title p:first-child+p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.header_info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.header_search input {
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+}
+
+.header_search svg {
+    width: 15px;
+}
+
+.search_icon {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.search_icon:hover {
+    background-color: #f21313;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header_call {
+    background-color: var(--primary-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 40px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header_car {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.header_menu_item a:hover {
+    color: #047f8b !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.header_log {
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.header_log_item a svg {
+    width: 26px;
+    height: 26px;
+}
+
+.header_log_item a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.silder__banner {
+    padding-top: 236px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.mt-header {
+    padding-top: 236px;
+}
+.menu_toggle {
+    display: none;
+}
+.header_search-mobile{  
+    display: none;
+}
+@media (max-width: 1068px) {
+    .header_menu{
+        flex-direction: column;
+        display: none;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .header_car{
+        flex-direction: column;
+    }
+    .header_log{
+        flex-direction: column;
+    }
+    .open{
+        display: flex;
+    }
+    .header_call{
+        display: none;
+    }
+    .menu_toggle {
+        display: flex;
+    }
+    .header_logo_img svg {
+        width: 32px;
+        height: 32px;
+    }
+    .menu_toggle svg {
+        width: 32px;
+        height: 32px;
+        align-items: center;
+    }
+    .header_main{
+        padding: 0 20px;
+    }
+    .header_logo_title p:first-child {
+        text-transform: uppercase;
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .header_logo_title p:first-child+p {
+       display: none;
+    }
+    .header_search-mobile {
+        display: flex;
+    }
+    .header_search {
+        display: none;
+    }
+    .silder__banner {
+        padding-top: 165px;
+    }
+    .banner_content {
+        top: 50%;
+        left: 50%;
+    }
+    .header_log{
+        margin-right: 0;
+        gap: 5px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .header_log_item{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        gap: 5px;
+    }
+}

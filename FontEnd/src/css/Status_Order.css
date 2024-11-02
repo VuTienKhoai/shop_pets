@@ -1,0 +1,9 @@
+.container_StatusOrder{
+    width: 100%;
+   
+}
+.text_itemUnpaid{
+    font-size:20px;
+    font-weight: '600';
+    margin-bottom:10px;
+}

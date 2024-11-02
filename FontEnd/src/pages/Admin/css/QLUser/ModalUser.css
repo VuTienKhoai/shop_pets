@@ -1,0 +1,24 @@
+.information_user{
+    /* padding-top: 50px; */
+}
+.lable_information_user{
+    margin-right:10px
+}
+.p-infomrmation_user{
+    margin-top:7px;
+    margin-bottom:2px;
+}
+.lable_center{
+    text-align: center;
+}
+.lable_margin_information_user{
+    margin-left:10px;
+    margin-top:10px;
+}
+.gt_inf_user{
+    margin-left:10px;
+    margin-top:5px;
+}
+.bold_inf_user{
+    font-weight: bold;
+}

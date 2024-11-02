@@ -1,0 +1,13 @@
+.tools_Table{
+    display: flex;
+    gap: 10px;
+}
+.tools_Admin{
+    margin-bottom: 20px;
+}
+.colTableAdmin{
+    background-color: aqua;
+}
+.title_table{
+    background-color: aqua;
+}

@@ -1,0 +1,92 @@
+.banner_ca {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.brand_container {
+    background-color: #f5f5f5;
+    padding: 80px 30px;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand_logo img {
+    width: 100%;
+}
+
+.banner_content {
+    background-color: rgba(248, 244, 244, 0.4);
+    max-width: 500px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 35px;
+}
+
+.banner_content p {
+    font-size: 56px;
+    font-weight: 700;
+    max-width: 350px;
+    letter-spacing: 5px;
+    margin: 10px;
+}
+
+.banenr_content_btn {
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.banenr_content_btn:hover {
+    background-color: #f1f5f5;
+    transition: background-color 0.3s ease-in-out;
+}
+.top10thu{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+@media (max-width: 1068px) {
+    .banner_content {
+        top: 50%;
+        left: 50%;
+    }
+    .top10thu{
+      text-align: center;
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+    .banner_btn{
+       border-radius: 5px;
+       padding: 0px;
+    }
+    .RowHome{
+        padding-left: 0px !important;
+    }
+    .banner_ca {
+        padding: 10px;
+    }
+    .banner_btn a{
+        font-size: 9px;
+    }
+    .overlay-text p{
+        font-size:12px;
+        margin-bottom: 10px;
+    }
+    .overlay-text {
+        font-size: 16px !important;
+      }
+}

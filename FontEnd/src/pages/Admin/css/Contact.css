@@ -1,0 +1,50 @@
+.contentContact{
+    margin: 0 auto;
+    width:70%;
+    padding-top: 70px;
+}
+.box_Contact{
+    margin-top:30px;
+}
+.title_Contact{
+    color:var(--primary-color);
+    font-size: 40px;
+    
+}
+.title_itemContact{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.flagship{
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.inf_Contact{
+    margin-top: 100px;
+}
+.left_infContact{
+    width: 50%;
+}
+.box_inf_Contact{
+    width: 50%;
+}
+.title_infContactText{
+    font-size: 42px;
+    color:var(--primary-color);
+    width:60%;
+}
+.item_Contact{
+    width: 25%;
+}
+.textara_Contact{
+    min-height: 150px;
+}
+.btn_contactSend{
+    background-color: var(--primary-color);
+}
+.text_btnContact{
+    color:#fff;
+    font-weight: bold;
+  
+}

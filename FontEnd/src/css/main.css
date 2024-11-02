@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+:root {
+    --primary-color: #6cdcb9;
+    --secondary-color: #2ecc71;
+ 
+}
+
+@font-face {
+    font-family: 'PoppinsR';
+    src: url('/src/font/DesignerVN-Poppins-Regular.ttf') format('PoppinsR');
+}
+
+@font-face {
+    font-family: 'AvenirB';
+    src: url('/src/font/AvenirNextLTPro-Bold.otf') format('AvenirB');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/src/font/AvenirNextLTPro-Regular.otf') format('Avenir');
+}
+
+body {
+    font-family: 'PoppinsR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1348px;
+    margin: 0 auto;
+}
+
+.container-m {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.page_content {
+    align-items: start !important;
+}
+
+.form_item {
+    flex-direction: column !important;
+}
+
+.input_form {
+    padding: 10px;
+}
+
+.form_item {
+    font-size: 25px !important;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    height: 103vh;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.Page_Content_Products {
+    margin: 0 auto;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+}

@@ -1,0 +1,48 @@
+
+{
+  "development": {
+    "username": "postgres.mevegehtpuwginhxbkou",
+    "password": "!@#Taquocthang#@!",
+    "database": "postgres",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "test": {
+    "username": "postgres.mevegehtpuwginhxbkou",
+    "password": "!@#Taquocthang#@!",
+    "database": "postgres",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
+  },
+  "production": {
+    "username": "postgres.mevegehtpuwginhxbkou",
+    "password": "!@#Taquocthang#@!",
+    "database": "postgres",
+    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    },
+    "timezone": "+07:00"
+  }
+}

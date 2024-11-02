@@ -1,0 +1,25 @@
+.headerProfile{
+    height:80px;
+    background-color:#FF5F42 ;
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+}
+.text_headerProfile{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+.title_ProfileInf{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.text_contentProfile{
+    font-size: 18px;
+}
+.box_btnEditProfile{
+    padding-bottom:20px;
+    
+}

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b2688186.css",
+    "main.js": "/static/js/main.dfdb72be.js",
+    "static/media/DesignerVN-Poppins-Regular.ttf": "/static/media/DesignerVN-Poppins-Regular.22935940c18423218141.ttf",
+    "static/media/background_update.jpg": "/static/media/background_update.fa8c2b2089b784dd92b7.jpg",
+    "static/media/AvenirNextLTPro-Bold.otf": "/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
+    "static/media/84770f_~mv2.webp": "/static/media/84770f_a8f241972e3245be9a397e4e88e806d8~mv2.91c9a29ccf024f2ffcf6.webp",
+    "static/media/AvenirNextLTPro-Regular.otf": "/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
+    "static/media/sold_3211463.png": "/static/media/sold_3211463.32e781805009dcf50a2f.png",
+    "static/media/82fcd3_~mv2_d_5509_4000_s_4_2.jpg": "/static/media/82fcd3_8e5daf6e362d432f9f34ff70780c6752~mv2_d_5509_4000_s_4_2.6c6ad6587295c18fa944.jpg",
+    "static/media/82fcd3_~mv2_d_2000_1424_s_2.jpg": "/static/media/82fcd3_2832171e379d4408bd00c5e72c89eff7~mv2_d_2000_1424_s_2.c97abaa3bcf6918c3dd3.jpg",
+    "static/media/82fcd3_~mv2_d_3745_2492_s_4_2.webp": "/static/media/82fcd3_97259c1aab9e4a9d9d9a6d33896ba1ec~mv2_d_3745_2492_s_4_2.9c4305ed1b09bc1b1343.webp",
+    "static/media/82fcd3_~mv2.webp": "/static/media/82fcd3_d1a50a604e7746409627375577693ebd~mv2.d8ea41f9618d9c7d0485.webp",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/user_icon.svg": "/static/media/user_icon.45647d6b5a8fcb3dcd2c2d542f9fa376.svg",
+    "static/media/logo.svg": "/static/media/logo.688ae989f0e286fcaacc341aeac0ac0a.svg",
+    "index.html": "/index.html",
+    "static/media/menu.svg": "/static/media/menu.bc10cc50acd9b6df1bb5ff549ce68dd5.svg",
+    "static/media/close.svg": "/static/media/close.5c6cd17c4693737efbb3c8401e70666e.svg",
+    "static/media/search_icon.svg": "/static/media/search_icon.9f1ecc81dfe1ba44628aeff867a9f18b.svg",
+    "main.b2688186.css.map": "/static/css/main.b2688186.css.map",
+    "main.dfdb72be.js.map": "/static/js/main.dfdb72be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2688186.css",
+    "static/js/main.dfdb72be.js"
+  ]
+}
